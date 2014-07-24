@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "koa-mongo-db",
+  "version": "0.0.0",
+  "description": "Abstraction of MongoDb for Koa.js",
+  "main": "koa-mongo-db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/screenrev/koa-mongo-db"
+  },
+  "author": "glen@screenrev.com",
+  "license": "BSD v2",
+  "bugs": {
+    "url": "https://github.com/screenrev/koa-mongo-db/issues"
+  },
+  "homepage": "https://github.com/screenrev/koa-mongo-db",
+  "dependencies": {
+    "local-config": "^0.1.0",
+    "bluebird": "^2.2.2",
+    "mongodb": "^1.4.7"
+  }
+}
