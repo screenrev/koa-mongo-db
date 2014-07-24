@@ -24,7 +24,6 @@ module.exports.ObjectID = mongodb.ObjectID;
 
 function connect() {
 	if (db) return Promise.resolve(db);
-	console.log('config.mongodb.url', config.mongodb.url);
 
 	return new Promise(function(resolve, reject) {
 		mongodb.MongoClient.connect(config.mongodb.url, {auto_reconnect: true}, function(err, db) {
