@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "koa-mongo-db",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Abstraction of MongoDb for Koa.js",
   "main": "koa-mongo-db.js",
   "scripts": {
