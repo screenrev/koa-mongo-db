@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/screenrev/koa-mongo-db",
   "dependencies": {
+    "bluebird": "2.9.9",
     "local-config": "0.1.0",
-    "bluebird": "2.2.2",
-    "mongodb": "1.4.7"
+    "mongodb": "1.4.31"
   }
 }
